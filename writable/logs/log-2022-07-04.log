@@ -1,0 +1,537 @@
+CRITICAL - 2022-07-04 11:11:33 --> Undefined variable $total
+#0 C:\xampp\htdocs\Parodi\app\Views\carrito.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrito', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(38): view('carrito', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verCarrito()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 11:12:03 --> Undefined variable $total
+#0 C:\xampp\htdocs\Parodi\app\Views\carrito.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrito', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(38): view('carrito', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verCarrito()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-04 15:17:43 --> Column 'email_usuario' cannot be null
+CRITICAL - 2022-07-04 15:17:43 --> Column 'email_usuario' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->comprar()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 15:18:02 --> Column 'email_usuario' cannot be null
+CRITICAL - 2022-07-04 15:18:02 --> Column 'email_usuario' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->comprar()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 15:20:16 --> Column 'email_usuario' cannot be null
+CRITICAL - 2022-07-04 15:20:16 --> Column 'email_usuario' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->comprar()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:10:09 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:10:09 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:10:10 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:10:10 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:10:11 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:10:11 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:10:17 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:10:17 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:10:37 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:10:37 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:10:42 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:10:42 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:10:42 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:10:42 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:10:42 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:10:42 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:10:42 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:10:42 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:11:07 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:11:07 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:11:12 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:11:12 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:11:12 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:11:12 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:11:13 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:11:13 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:11:13 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:11:13 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:11:14 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:11:14 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(21): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:11:48 --> Column 'direccion' cannot be null
+CRITICAL - 2022-07-04 16:11:48 --> Column 'direccion' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(20): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->agregar_carrito()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:16:20 --> Column 'nombreCliente' cannot be null
+CRITICAL - 2022-07-04 16:16:20 --> Column 'nombreCliente' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->comprar()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:17:30 --> Column 'nombreCliente' cannot be null
+CRITICAL - 2022-07-04 16:17:30 --> Column 'nombreCliente' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->comprar()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:18:28 --> Column 'nombreCliente' cannot be null
+CRITICAL - 2022-07-04 16:18:28 --> Column 'nombreCliente' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->comprar()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:20:44 --> Column 'nombreCliente' cannot be null
+CRITICAL - 2022-07-04 16:20:44 --> Column 'nombreCliente' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->comprar()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:21:41 --> Column 'nombreCliente' cannot be null
+CRITICAL - 2022-07-04 16:21:41 --> Column 'nombreCliente' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->comprar()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:22:08 --> Column 'nombreCliente' cannot be null
+CRITICAL - 2022-07-04 16:22:08 --> Column 'nombreCliente' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->comprar()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-04 16:22:22 --> Column 'nombreCliente' cannot be null
+CRITICAL - 2022-07-04 16:22:22 --> Column 'nombreCliente' cannot be null
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Parodi\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(117): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->comprar()
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#10 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-04 16:29:27 --> Undefined array key "usuario"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\misVentas.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/mi...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(152): view('back/carrito/mi...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 16:30:32 --> Undefined array key "usuario"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\misVentas.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/mi...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(152): view('back/carrito/mi...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 16:30:38 --> Undefined array key "usuario"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\misVentas.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/mi...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(152): view('back/carrito/mi...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 16:34:28 --> Undefined array key "usuario"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\misVentas.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/mi...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(152): view('back/carrito/mi...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->misVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-04 19:19:24 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-04 19:19:37 --> Call to a member function contents() on array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verCarrito()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-04 20:22:33 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrito', Array, true)
+#3 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(33): view('carrito', Array)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verCarrito()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 20:22:36 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrito', Array, true)
+#3 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(33): view('carrito', Array)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verCarrito()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 20:22:53 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrito', Array, true)
+#3 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(33): view('carrito', Array)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verCarrito()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 20:23:04 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrito', Array, true)
+#3 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(33): view('carrito', Array)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verCarrito()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 20:23:06 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrito', Array, true)
+#3 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(33): view('carrito', Array)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verCarrito()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 20:23:06 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('carrito', Array, true)
+#3 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(33): view('carrito', Array)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verCarrito()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-04 20:53:27 --> Call to a member function contents() on array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verCarrito()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

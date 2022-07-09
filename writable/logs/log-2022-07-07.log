@@ -1,0 +1,117 @@
+CRITICAL - 2022-07-07 01:49:13 --> syntax error, unexpected double-quoted string "", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-07 01:49:15 --> syntax error, unexpected double-quoted string "id=", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-07 01:49:16 --> syntax error, unexpected double-quoted string "id='", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-07 01:49:17 --> syntax error, unexpected double-quoted string "id=''", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-07 01:49:19 --> syntax error, unexpected double-quoted string "id='C'", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-07 01:49:24 --> syntax error, unexpected single-quoted string "", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-07 01:49:29 --> syntax error, unexpected single-quoted string "id=""", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-07 01:49:30 --> syntax error, unexpected single-quoted string "id="C"", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-07 01:49:40 --> syntax error, unexpected single-quoted string "id=", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-07 01:49:42 --> syntax error, unexpected single-quoted string "id=", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-07 01:49:48 --> syntax error, unexpected double-quoted string "", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-07 01:49:50 --> syntax error, unexpected double-quoted string "id=", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-07 01:49:54 --> syntax error, unexpected double-quoted string "id=''", expecting ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

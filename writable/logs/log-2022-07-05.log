@@ -1,0 +1,11 @@
+CRITICAL - 2022-07-05 11:00:20 --> Undefined property: CodeIgniter\View\View::$load
+#0 C:\xampp\htdocs\Parodi\app\Views\productos.php(280): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 280)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('productos', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Productos_Controllers.php(128): view('productos', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Productos_Controllers->mostrarProductos()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controllers))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,1330 @@
+CRITICAL - 2022-07-08 01:34:39 --> Undefined array key "usuario"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:36:29 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:36:31 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:36:34 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:36:44 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:36:46 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:36:52 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:37:06 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:37:10 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:37:11 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:37:14 --> Archivo inválido: <back>
+        <carrito/verVentas.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<back>\n        ...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('<back>\n        ...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(123): view('<back>\n        ...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:37:19 --> Archivo inválido: <back>carrito/verVentas.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<back>carrito/v...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('<back>carrito/v...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(123): view('<back>carrito/v...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:37:25 --> Archivo inválido: backcarrito/verVentas.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backcarrito/ver...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('backcarrito/ver...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(123): view('backcarrito/ver...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:37:27 --> Archivo inválido: <back>carrito/verVentas.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('<back>carrito/v...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('<back>carrito/v...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(123): view('<back>carrito/v...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:37:37 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:37:40 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:38:43 --> syntax error, unexpected variable "$data"
+#0 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Parodi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:39:32 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-08 01:39:35 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-08 01:39:59 --> Undefined variable $usuario
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-08 01:40:01 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-07-08 01:40:01 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(121): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-08 01:40:09 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-07-08 01:40:09 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(121): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-07-08 01:40:11 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-07-08 01:40:11 --> Unknown column 'id' in 'order clause'
+#0 C:\xampp\htdocs\Parodi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Parodi\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Parodi\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Parodi\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Parodi\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(121): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#8 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#9 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-08 01:51:24 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:51:26 --> syntax error, unexpected token ")", expecting variable or "{" or "$"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:51:48 --> Undefined variable $verVentas
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:51:53 --> Undefined variable $verVentas
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:51:57 --> Undefined variable $verVentas
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:51:58 --> Undefined variable $verVentas
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:52:02 --> Undefined variable $verVentas
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:52:05 --> Undefined variable $verVentas
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:52:07 --> Undefined variable $verVentas
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:52:08 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:52:10 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:52:13 --> Undefined variable $verVentas
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:52:16 --> Undefined variable $verVentas
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:52:31 --> Undefined variable $verVentas
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:58:14 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:58:16 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-08 01:58:22 --> Undefined array key "id_ventas"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:58:25 --> Undefined array key "id_ventas"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 01:59:11 --> syntax error, unexpected identifier "Fecha", expecting "," or ";"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:59:33 --> syntax error, unexpected string content "fe]?> </a>", expecting "]"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:59:34 --> syntax error, unexpected string content "]?> </a>", expecting "]"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:59:38 --> syntax error, unexpected string content "fecha_venta]?> </a>", expecting "]"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:59:47 --> syntax error, unexpected string content "fecha_venta]?>" </a>", expecting "]"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 01:59:49 --> syntax error, unexpected string content "fecha_venta]?> </a>", expecting "]"
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 02:06:21 --> Undefined array key "detalles"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 02:06:38 --> Undefined array key "descripcion_ventas"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 02:09:50 --> Undefined array key ""
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 02:17:34 --> Undefined array key "total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(126): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 02:48:53 --> Undefined variable $ventas
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(170): view('back/carrito/fo...', Array, Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 02:49:47 --> Undefined variable $verVentas
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(170): view('back/carrito/fo...', Array, Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 11:53:59 --> Undefined property: CodeIgniterCart\Cart::$id
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-08 12:48:40 --> Undefined property: CodeIgniterCart\Cart::$id
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-08 12:48:41 --> Undefined property: CodeIgniterCart\Cart::$id
+#0 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-08 17:55:50 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:55:56 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:55:59 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:19 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:21 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:22 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:23 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:24 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:25 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:25 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:26 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:26 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:26 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:27 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:27 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:28 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:28 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:29 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:29 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:56:30 --> Undefined array key "precio_total"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 17:59:35 --> Undefined array key "subtotal"
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\verVentas.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/ve...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(129): view('back/carrito/ve...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->verVentas()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:24:26 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:24:35 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:27:32 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:35:19 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:35:40 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:35:41 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:35:43 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:35:46 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:36:14 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:36:56 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:37:30 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:37:36 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:37:46 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:39:00 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:39:05 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:39:06 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:39:06 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:39:07 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:39:08 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:39:08 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:39:08 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:39:08 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:39:09 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:50:56 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 21:50:59 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 21:51:40 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 21:52:00 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 21:52:27 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 21:52:41 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 21:53:12 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 21:56:22 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 21:58:17 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(162): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:58:19 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(162): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:58:22 --> Undefined variable $id
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(162): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 21:58:35 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 21:58:51 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:00:11 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:01:38 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:01:50 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:01:53 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:01:57 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:02:01 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:02:54 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:03:24 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:03:30 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:03:49 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:05:06 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:05:12 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:05:14 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:05:15 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:05:16 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:09:05 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:09:09 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:09:15 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:09:18 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:09:25 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:10:43 --> Undefined variable $monto
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(155): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 22:10:47 --> Undefined variable $monto
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(155): view('back/carrito/fo...', Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 22:11:32 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:11:37 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:11:40 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:17:38 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:19:13 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:20:21 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:22:40 --> Cannot use a scalar value as an array
+#0 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#1 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#2 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-08 22:23:57 --> Undefined variable $monto
+#0 C:\xampp\htdocs\Parodi\app\Views\back\carrito\formWasap.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Parodi\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Parodi\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#4 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...', Array, Array)
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#6 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#7 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-08 22:24:54 --> Archivo inválido: back/carrito/formWasap8300.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/carrito/fo...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-08 22:24:55 --> Archivo inválido: back/carrito/formWasap8300.php
+#0 C:\xampp\htdocs\Parodi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/carrito/fo...')
+#1 C:\xampp\htdocs\Parodi\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/fo...', Array, true)
+#2 C:\xampp\htdocs\Parodi\app\Controllers\Carrito_Controller.php(159): view('back/carrito/fo...')
+#3 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(832): App\Controllers\Carrito_Controller->formWasap()
+#4 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_Controller))
+#5 C:\xampp\htdocs\Parodi\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Parodi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
